@@ -1,5 +1,7 @@
 extends Control
 
+@onready var sooner: CheckButton = $VBoxContainer/Sooner
+
 var last_days : int = -INF
 
 func _process(delta: float) -> void:
@@ -12,6 +14,8 @@ func _process(delta: float) -> void:
 		"minute": 0,
 		"second": 0
 	}
+	if sooner.button_pressed:
+		target["day"] = 22
 	var target_unix = Time.get_unix_time_from_datetime_dict(target)
 	var current_unix = Time.get_unix_time_from_system()
 	var difference = target_unix - current_unix
