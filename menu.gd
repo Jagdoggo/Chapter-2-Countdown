@@ -7,8 +7,8 @@ func _process(delta: float) -> void:
 	var target = {
 		"year": 2026,
 		"month": 7,
-		"day": 25,
-		"hour": 2,
+		"day": 24,
+		"hour": 14,
 		"minute": 0,
 		"second": 0
 	}
