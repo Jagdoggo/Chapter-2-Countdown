@@ -36,6 +36,10 @@ vertical_alignment = 1
 layout_mode = 2
 text = "I WANT IT FASTER"
 
+[node name="Until Trailer #2" type="CheckButton" parent="VBoxContainer" unique_id=1879820884]
+layout_mode = 2
+text = "Until Trailer #2"
+
 [node name="BoxContainer" type="GridContainer" parent="VBoxContainer" unique_id=1004332268]
 custom_maximum_size = Vector2(1152, -1)
 layout_mode = 2
