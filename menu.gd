@@ -12,7 +12,7 @@ func _process(delta: float) -> void:
 		"year": 2026,
 		"month": 7,
 		"day": 24,
-		"hour": 14,
+		"hour": 17,
 		"minute": 0,
 		"second": 0
 	}
